@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(image/background\ image.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#auth_container{
+text-align: center;
+/* display: none; */
+}
+
+.signbox{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 470px;
+    width: 500px;
+    margin: auto auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    /* box-shadow: 1px 1px 10px  blueviolet; */
+    padding: 5px ;
+    background-color: white;
+    padding-bottom: 70px;
+    
+  
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-weight: 900;
+    /* padding: 3px; */
+    /* border-bottom: 1px solid rgb(5, 5, 5); */
+    width: 90%;
+    text-align: center;
+    margin: auto auto;
+    /* height: 50px; */
+    margin-bottom: 1px;
+}
+
+#signin_btn{
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 7px;
+    font-size: 18px;
+    border: none;
+    margin: 10px;
+   
+}
+#signin_btn:hover{
+    background-color: rgb(74, 0, 143);
+}
+
+
+
+input{
+    margin: 3px;
+    padding: 7px;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 95%;
+}
+
+#signup_btn{
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 7px;
+    font-size: 18px;
+    border: none;
+    margin: 10px;
+}
+
+#signup_btn:hover{
+    background-color: rgb(74, 0, 143);
+}
+
+#user_container{
+    display: none;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    /* padding: 10px; */
+}
+#user_email{
+    /* border: 1px solid black; */
+    color: white;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+
+}
+#LogOut_btn{
+    float: right;
+    height: 65px;
+    width: 200px;
+    font-size: 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 3px;
+
+}
